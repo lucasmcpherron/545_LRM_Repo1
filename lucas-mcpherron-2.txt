@@ -1,0 +1,47 @@
+Git -- Bonus assignment 2
+
+Due by Tuesday, Sept 5 @ 11PM
+
+Under each numbered prompt write the command(s)
+you'd run in your bash shell to complete the prompt.
+
+1. Clone your personal bonus repo (eg https://github.com/AdamSpannbauer/your-name-bonus-repo)
+
+git clone https://github.com/lucasmcpherron/545_LRM_Repo1
+
+2. Clone the bonus-assignments repo: https://github.com/f23-bzan545/bonus-assignments
+
+git clone https://github.com/f23-bzan545/bonus-assignments
+
+3. Change directory into your bonus repo
+
+cd 545_LRM_Repo1
+
+4. Create and switch to a new branch called bonus_2
+
+git checkout -b bonus_2
+
+5. Copy the bonus-assignment-02.txt from the bonus-assignments repo
+   to a file called firstname-lastname-2.txt in your personal bonus repo
+
+cp Users/545_LRM_Repo1/bonus-assignments/bonus-assignments/bonus-assignment-02.txt ./lucas-mcpherron-2.txt
+
+6. Open firstname-lastname-2.txt to edit it 
+   (and write in all your answers for 1-6)
+
+nano Lucas-mcpherron-2.txt
+
+7. Commit your changes to branch bonus_2 with the commit message:
+   "Answer questions 1 to 6"
+
+8. Get the status
+
+9. After writing the command in this file for step 8, commit again, 
+   this time with commit message "Answer question 8"
+
+10. Write the command to push bonus_2 to your repo, save this file, 
+    then execute the actual push command that you wrote below, 
+    then verify on GitHub whether all your changes are there,
+    then do a pull request. 
+    (the answer to this question is the push command)
+
